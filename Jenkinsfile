@@ -1,7 +1,7 @@
 node {
 
 
-   def IMAGE="formation/app:3.5"
+   def IMAGE="plbaxeltest/app:1.0"
 
     stage('Clone') {
           checkout scm
